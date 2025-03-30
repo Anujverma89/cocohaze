@@ -42,8 +42,8 @@ const steps = [
 
 const How:React.FC<any> = () => {
   return (
-    <section className="py-20 min-h-dvh flex items-center bg-gray-900 text-white">
-      <div className="max-w-6xl mx-auto text-center">
+    <section className="py-20 min-h-dvh flex items-center max-w-full justify-center text-white">
+      <div className="max-w-[90%] flex flex-col items-center justify-center  text-center">
         <h2 className="text-5xl font-extrabold mb-10 tracking-wide">
           How <span className="text-blue-400">Unbtai</span> Works
         </h2>

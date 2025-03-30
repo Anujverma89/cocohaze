@@ -2,10 +2,10 @@ import React from 'react';
 
 const Installation: React.FC = () => {
     return (
-        <div className="min-h-dvh flex items-center p-6">
+        <div className="min-h-dvh max-w-full justify-center flex items-center p-6">
 
             {/* Main Content */}
-            <main className="max-w-4xl mx-auto mt-40">
+            <main className="max-w-[95%] mt-40">
                 <h1 className="text-4xl font-bold text-center mb-10">Installation</h1>
 
                 {/* .deb Download Section */}

@@ -7,7 +7,7 @@ const Header: React.FC<any> = () => {
     const location = useLocation();
     return (
         <>
-            <div className="h-14 items-center  flex justify-center flex-row">
+            <div className="h-14 items-center hidden md:flex justify-center flex-row">
                 <div className="rounded-4xl h-full md:w-[50%] lg:w-[40%] border-2 border-gray-500 flex min-w-fit max-w-fit px-1 items-center">
                     <ul className="headerbackground-color  rounded-4xl h-[90%] items-center justify-around min-w-fit flex">
                         <Link to="" id="home"  className={location.pathname === "/" ? highlightedLink : linkStyle}>Home</Link>

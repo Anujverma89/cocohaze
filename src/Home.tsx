@@ -6,12 +6,12 @@ const Home: React.FC<any> = () => {
     return (
         <>
             {/* this is Hero section  */}
-            <div className="h-dvh flex relative  justify-center flex-col items-center">
+            <div className="min-h-dvh flex relative  justify-center flex-col items-center">
                 <div className="flex flex-col items-center gap-5">
                     <h1 className="introdivText flex items-baseline">
                         <span className="text-[#444140]">Ubnt</span>
                         ai
-                        <p className="text-sm mt-2 text-gray-400 mx-2">v1.0.0</p>
+                        <p className="text-sm mt-2 text-gray-400 mx-2">v0.0.1</p>
                     </h1>
                     <h4 className="tracking-wide">Ai Asistant for your Ubuntu(OS)</h4>
                 </div>
@@ -23,7 +23,7 @@ const Home: React.FC<any> = () => {
 
 
 
-                <div className="absolute w-full bottom-10 flex font-bold  items-center flex-col mt-5">
+                <div className="md:absolute w-full bottom-10 flex font-bold  items-center flex-col mt-5">
                     <ul className="relative w-[50%] flex gap-5 flex-wrap items-center justify-around ">
                         <div className="rounded-sm  h-15 w-[230px] p-1 flex items-center justify-center">
                             <li className="featureCard featurecontainer px-4 rounded-sm flex h-[100%] w-full">Learn Ubuntu</li>
@@ -51,7 +51,7 @@ const Home: React.FC<any> = () => {
 
 
             {/* this is contribution  section  */}
-            <div className="h-dvh w-full flex items-center justify-center">
+            <div className="min-h-dvh w-full flex items-center justify-center">
                 <div className="w-[80%] installation mt-14">
                     <div className="w-full flex items-center justify-center ">
                         <h3>Contribute to Ubntai</h3>
