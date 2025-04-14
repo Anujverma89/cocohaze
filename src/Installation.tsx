@@ -10,35 +10,22 @@ const Installation: React.FC = () => {
 
                 {/* .deb Download Section */}
                 <section className="mb-10">
-                    <h2 className="text-2xl font-semibold mb-4">Download the .deb Package</h2>
+                    <h2 className="text-2xl font-semibold mb-4">Download the .snap Package</h2>
                     <p className="mb-4 text-lg">
-                        Click the button below to download the latest .deb package for Unbtai.
+                        Click the button below to download the latest .snap package for Unbtai.
                     </p>
                     <a
-                        href="https://example.com/unbtai_latest.deb"
+                        href="src/assets/ubntai_0.0.1_amd64.snap"
                         target="_blank"
                         rel="noopener noreferrer"
+                        download="ubntai_0.0.1_amd64.snap"
                         className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium transition duration-300"
                     >
-                        Download .deb Package
+                        Download .snap Package
                     </a>
                 </section>
 
-                {/* APT Repository Section */}
-                <section className="mb-10">
-                    <h2 className="text-2xl font-semibold mb-4">Install via APT Repository</h2>
-                    <p className="mb-4 text-lg">
-                        Add our PPA to your system and install Unbtai with a single command:
-                    </p>
-                    <div className="bg-gray-800 text-gray-100 rounded-lg p-4 overflow-x-auto">
-                        <code className="block whitespace-pre">
-                            {`sudo add-apt-repository ppa:unbtai/stable
-sudo apt update
-sudo apt install unbtai`}
-                        </code>
-                    </div>
-                </section>
-
+         
                 {/* Snap Installation Section */}
                 <section className="mb-10">
                     <h2 className="text-2xl font-semibold mb-4">Install via Snap Store</h2>

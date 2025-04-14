@@ -28,10 +28,7 @@ const Docs: React.FC = () => {
                     </p>
                     <ul className="list-disc list-inside mb-4 text-lg">
                         <li>
-                            <strong>.deb Package:</strong> Download from our website and install manually.
-                        </li>
-                        <li>
-                            <strong>APT Repository:</strong> Add our PPA and install using <code>sudo apt install unbtai</code>.
+                            <strong>.snap Package:</strong> Download from our website and install manually.
                         </li>
                         <li>
                             <strong>Snap Store:</strong> Install using <code>sudo snap install unbtai</code>.
@@ -39,13 +36,7 @@ const Docs: React.FC = () => {
                     </ul>
                     <div className="bg-gray-800 text-gray-100 rounded-lg p-4 overflow-x-auto">
                         <code className="block whitespace-pre">
-                            {`# For APT Repository:
-                                sudo add-apt-repository ppa:unbtai/stable
-                                sudo apt update
-                                sudo apt install unbtai
-
-                                # For Snap Store:
-                                sudo snap install unbtai`}
+                            {`sudo snap install unbtai`}
                         </code>
                     </div>
                 </section>
