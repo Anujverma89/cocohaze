@@ -65,11 +65,10 @@ const Home: React.FC<any> = () => {
                             <a href="https://github.com/Anujverma89/cocohaze" target="_blank"><FaGithub size={30} color="white"></FaGithub></a>
                             <a href="https://github.com/Anujverma89/cocohaze" target="_blank">  <p className="font-normal">Cocohaze</p></a>
                         </div>
-                        <div className="model h-15 w-[200px] gap-4 flex flex-nowrap featureCard rounded-sm featurecontainer" title="Mocha Brew is a codename given to Ml model of Ubntai">
+                        {/* <div className="model h-15 w-[200px] gap-4 flex flex-nowrap featureCard rounded-sm featurecontainer" title="Mocha Brew is a codename given to Ml model of Ubntai">
                             <a href="https://github.com/Anujverma89/ubntaimodel" target="_blank"><FaGithub size={30} color="white"></FaGithub></a>
                             <a href="https://github.com/Anujverma89/ubntaimodel" target="_blank">  <p className="font-normal">Mocha Brew</p></a>
-                        </div>
-
+                        </div> */}
                         <div className="backendrepo h-15 w-[200px] gap-4 flex flex-nowrap featureCard rounded-sm featurecontainer" title="Roast Bean is a codename given to backend of Ubntai">
                             <a href="https://github.com/Anujverma89/ubntaibackend" target="_blank"><FaGithub size={30} color="white"></FaGithub></a>
                             <a href="https://github.com/Anujverma89/ubntaibackend" target="_blank">  <p className="font-normal">Roast Bean</p></a>
